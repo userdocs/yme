@@ -7,7 +7,7 @@ hide_title: true
 
 There are some actions created that will build the binaries and create and artifacts. They can be viewed here:
 
-<https://github.com/userdocs/qbittorrent-nox-static/actions>
+[https://github.com/userdocs/qbittorrent-nox-static/actions](https://github.com/userdocs/qbittorrent-nox-static/actions)
 
 Most of these actions are triggered manually by clicking on the action and running the workflow meaning you can fork the repo and use the workflows you require. Patching will work with the `multi_arch` actions as long as you configure it correctly in the action first.
 

@@ -3,8 +3,6 @@ title: Prerequisite Check list
 hide_title: true
 ---
 
-<Advanced/>
-
 :::note Github meets all the requirements
 Github workflows can meet all these requirements to build and patch and is free to use and takes a fixed amount of time.
 :::
@@ -13,7 +11,7 @@ Github workflows can meet all these requirements to build and patch and is free 
 
 :::tip Optional - Paid service for faster build times
 For faster build times you can consider a paid service like <Tips>buildjet.com:buildjet</Tips> to use as self hosted runners with the Github Actions
-:::tip
+:::
 
 </Advanced>
 

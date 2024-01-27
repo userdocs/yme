@@ -32,10 +32,9 @@ Using the flag `-c` or the env `qbt_build_tool=cmake` will trigger these additio
 :::
 </Advanced>
 
-<details className="custom-details"><summary>What to expect</summary>
-
-![](@site/static/docs_images/script_usage/1.png)
-
+<details className="custom-details">
+  <summary>What to expect</summary>
+  ![](@site/static/docs_images/script_usage/1.png)
 </details>
 
 When you are familiar with the script you can do anything you want with a one liner. It's pretty simple to use.
@@ -124,7 +123,6 @@ All in one command:
 docker run -it -w /root -v $HOME/qbt:/root alpine:edge /bin/ash -c 'apk update && apk add bash curl && curl -sL git.io/qbstatic | bash -s all'
 ```
 
-<!-- tabs:end -->
 </TabItem>
 </Tabs>
 

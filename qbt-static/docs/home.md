@@ -7,14 +7,14 @@ These are the main dependencies we need to work with in order to build a fully f
 
 |   Dependencies    |                Links to source                |    Build OS     | Requirements |
 | :---------------: | :-------------------------------------------: | :-------------: | :----------: |
-|       glibc       |         <http://ftp.gnu.org/gnu/libc>         |     Debian      |   required   |
-|   zlib/zlib-ng    |     <https://github.com/zlib-ng/zlib-ng>      | Debian + Alpine |   required   |
-|      openssl      |     <https://github.com/openssl/openssl>      | Debian + Alpine |   required   |
-|       iconv       |       <http://ftp.gnu.org/gnu/libiconv>       | Debian + Alpine |   required   |
-|        icu        |     <https://github.com/unicode-org/icu>      | Debian + Alpine |   optional   |
-|       boost       |      <https://github.com/boostorg/boost>      | Debian + Alpine |   required   |
-|    libtorrent     |    <https://github.com/arvidn/libtorrent>     | Debian + Alpine |   required   |
-| double conversion | <https://github.com/google/double-conversion> | Debian + Alpine |   required   |
-|      qtbase       |        <https://github.com/qt/qtbase>         | Debian + Alpine |   required   |
-|      qttools      |        <https://github.com/qt/qttools>        | Debian + Alpine |   required   |
-|    qbittorrent    | <https://github.com/qbittorrent/qBittorrent>  | Debian + Alpine |   required   |
+|       glibc       |         http://ftp.gnu.org/gnu/libc        |     Debian      |   required   |
+|   zlib/zlib-ng    |     https://github.com/zlib-ng/zlib-ng      | Debian + Alpine |   required   |
+|      openssl      |     https://github.com/openssl/openssl      | Debian + Alpine |   required   |
+|       iconv       |       http://ftp.gnu.org/gnu/libiconv       | Debian + Alpine |   required   |
+|        icu        |     https://github.com/unicode-org/icu      | Debian + Alpine |   optional   |
+|       boost       |      https://github.com/boostorg/boost      | Debian + Alpine |   required   |
+|    libtorrent     |    https://github.com/arvidn/libtorrent     | Debian + Alpine |   required   |
+| double conversion | https://github.com/google/double-conversion | Debian + Alpine |   required   |
+|      qtbase       |        https://github.com/qt/qtbase        | Debian + Alpine |   required   |
+|      qttools      |        https://github.com/qt/qttools       | Debian + Alpine |   required   |
+|    qbittorrent    | https://github.com/qbittorrent/qBittorrent  | Debian + Alpine |   required   |

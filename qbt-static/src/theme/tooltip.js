@@ -4,7 +4,7 @@ import "react-tooltip/dist/react-tooltip.css";
 import { renderToStaticMarkup } from "react-dom/server";
 
 const MyToolTips = ({ children }) => {
-  const input = children.split(":");
+  const input = (children[0] + children[1]).split(":");
   const Directory = "tooltips";
   const FilePath = require("@site/docs/" +
     Directory +

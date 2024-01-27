@@ -32,11 +32,3 @@ export default function AdmonitionWrapper(props) {
   }
   return <Admonition icon="" {...props} />;
 }
-
-function ExamplePage() {
-  return (
-    <Layout>
-      <Example />
-    </Layout>
-  );
-}

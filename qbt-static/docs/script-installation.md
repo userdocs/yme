@@ -11,7 +11,8 @@ This documentation has a toggle in the nav menu to switch between a Basic and Ad
 It will avoid complexity and deviation into advanced tangents that would otherwise be helpful to someone who is already familiar with how the project works.
 :::
 
-<details className="custom-details"><summary>Things to consider</summary>
+<details className="custom-details">
+<summary>Things to consider</summary>
 
 There are actually a variety of ways you can approach the download and usage of the script.
 

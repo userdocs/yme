@@ -8,7 +8,7 @@ Custom musl crossbuild toolchains based on musl.cc
 
 The main musl cross make is located here https://github.com/richfelker/musl-cross-make and the tools used here are derived from this.
 
-[musl.cc](https://musl.cc) is a fork of the original mcm (musl cross make) project and they release and host cross toolchains to be used. The repo for the project is found here <https://git.zv.io/toolchains/musl-cross-make/-/tree/master>
+[musl.cc](https://musl.cc) is a fork of the original mcm (musl cross make) project and they release and host cross toolchains to be used. The repo for the project is found here [https://git.zv.io/toolchains/musl-cross-make/-/tree/master](https://git.zv.io/toolchains/musl-cross-make/-/tree/master)
 
 This project uses a modified version of the [musl.cc](https://musl.cc) musl cross make tool build tools.
 
