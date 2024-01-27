@@ -39,3 +39,5 @@ qbt-static/.env.production.local
 qbt-static/npm-debug.log*
 qbt-static/yarn-debug.log*
 qbt-static/yarn-error.log*
+
+dev/*
