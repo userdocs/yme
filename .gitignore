@@ -18,3 +18,24 @@ docusaurus/.env.production.local
 docusaurus/npm-debug.log*
 docusaurus/yarn-debug.log*
 docusaurus/yarn-error.log*
+
+# Dependencies
+qbt-static/node_modules
+
+# Production
+qbt-static/build
+
+# Generated files
+qbt-static/.qbt-static
+qbt-static/.cache-loader
+
+# Misc
+qbt-static/.DS_Store
+qbt-static/.env.local
+qbt-static/.env.development.local
+qbt-static/.env.test.local
+qbt-static/.env.production.local
+
+qbt-static/npm-debug.log*
+qbt-static/yarn-debug.log*
+qbt-static/yarn-error.log*
