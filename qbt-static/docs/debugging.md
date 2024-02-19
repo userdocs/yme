@@ -3,7 +3,7 @@ title: Debugging
 hide_title: true
 ---
 
-<Advanced/>
+<Advanced></Advanced>
 
 To properly debug a segfault the build will need to have been built with libtorrent and qbitorrent debug symbols.
 

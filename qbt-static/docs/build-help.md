@@ -3,8 +3,6 @@ title: Build Help
 hide_title: true
 ---
 
-<Advanced/>
-
 Once the script has successfully configured the platform you can execute the help switch to see how it works and what options you have available to you.
 
 ```bash

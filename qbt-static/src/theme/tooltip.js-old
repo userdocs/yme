@@ -37,7 +37,6 @@ const MyToolTips = ({ children }) => {
           Sections[1] +
           "</span>" +
           "<span style='justify-content: center;display: flex;position: relative;'>" +
-          "<input onclick='document.getElementById(\"ShowMore\").classList.toggle(\"grow\");this.value=\"Close\"' 'type='button' value='Show more' id='myButton1' style='text-align: center;width: 100px; border: 0px;color: black;background-color: #61ffca;padding: 5px 10px 5px 10px;' />" +
           "</span>"
         }
       >

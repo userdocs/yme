@@ -24,8 +24,6 @@ function App() {
     setToggled(toggle);
   }, [toggle]);
 
-  console.log(toggle);
-
   return (
     <div>
       <label className="fuggo-label advanced-button">

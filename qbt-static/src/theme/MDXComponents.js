@@ -4,7 +4,6 @@ import MDXComponents from "@theme-original/MDXComponents";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import Advanced from "@site/src/theme/advanced-markdown.js";
-import Tips from "@site/src/theme/tooltip.js";
 
 export default {
   // Re-use the default mapping
@@ -14,5 +13,4 @@ export default {
   Tabs,
   TabItem,
   Advanced,
-  Tips,
 };

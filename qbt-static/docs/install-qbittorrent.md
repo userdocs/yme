@@ -3,15 +3,15 @@ title: Installing nox
 hide_title: true
 ---
 
-<Advanced/>
-
 Once the script has successfully built `qbittorrent-nox` you can install the binary using this command:
 
 ```bash
 bash ~/qbittorrent-nox-static.sh install
 ```
 
-> [!warning|iconVisibility:hidden|labelVisibility:hidden|style:callout] If you built to a custom directory you will need to specify this to the install command using the `-b` argument.
+:::tip
+If you built to a custom directory you will need to specify this to the install command using the `-b` argument.
+:::
 
 ```bash
 bash ~/qbittorrent-nox-static.sh -b "/path/to/built/binary" install
@@ -39,9 +39,8 @@ Optionally installed to `$HOME/bin/qbittorrent-nox`
 
 Optionally you can just download the existing prebuilt binaries released using GitHub Actions.
 
-<!-- tabs:start -->
-
-<!-- tab: x86_64 -->
+<Tabs>
+  <TabItem value="x86_64" label="🔹 x86_64" default>
 
 Without ICU
 
@@ -59,7 +58,8 @@ wget -qO ~/bin/qbittorrent-nox https://github.com/userdocs/qbittorrent-nox-stati
 chmod 700 ~/bin/qbittorrent-nox
 ```
 
-<!-- tab: aarch64 -->
+  </TabItem>
+  <TabItem value="aarch64" label="🔹 aarch64">
 
 Without ICU
 
@@ -77,7 +77,8 @@ wget -qO ~/bin/qbittorrent-nox https://github.com/userdocs/qbittorrent-nox-stati
 chmod 700 ~/bin/qbittorrent-nox
 ```
 
-<!-- tab: armv7 -->
+  </TabItem>
+  <TabItem value="armv7" label="🔹 armv7">
 
 Without ICU
 
@@ -95,7 +96,8 @@ wget -qO ~/bin/qbittorrent-nox https://github.com/userdocs/qbittorrent-nox-stati
 chmod 700 ~/bin/qbittorrent-nox
 ```
 
-<!-- tab: armhf -->
+  </TabItem>
+  <TabItem value="armhf" label="🔹 armhf">
 
 Without ICU
 
@@ -113,7 +115,8 @@ wget -qO ~/bin/qbittorrent-nox https://github.com/userdocs/qbittorrent-nox-stati
 chmod 700 ~/bin/qbittorrent-nox
 ```
 
-<!-- tabs:end -->
+  </TabItem>
+</Tabs>
 
 ## Configuring qbittorrent
 

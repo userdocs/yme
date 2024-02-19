@@ -3,8 +3,6 @@ title: Script Usage
 hide_title: true
 ---
 
-<Advanced/>
-
 ## First run expectations
 
 Since the script is designed to be run in a temporary environment like docker or Github workflows, first thing the script does check the required critical dependencies are installed and attempt to install them if missing. Once this is done it will exit with some information printed to the terminal.
@@ -16,7 +14,7 @@ The preferred and recommended build platform is Alpine Linux and the recommended
 :::
 
 :::caution Assumptions
-The easiest way to progress if that I assume you have downloaded the script locally, as recommended in the previous section and that you have docker, <Tips>qemu and binmtfs:qemu</Tips> available to you.
+The easiest way to progress if that I assume you have downloaded the script locally, as recommended in the previous section and that you have docker, [qemu and binmtfs](glossary/qemu) available to you.
 :::
 
 :::danger

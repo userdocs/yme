@@ -3,47 +3,55 @@ title: Introduction
 hide_title: true
 ---
 
-<Advanced/>
-
 ### What is it?
 
 `qbittorrent-nox-static.sh` was originally a simple, amateurish bash script, to build a static `qbittorrent-nox` binary for `x86_64`. The script has grown and evolved since then and now it's a complicated bash script.
 
+### What does it do?
+
 It handles a lot of the nuanced complexity around building various different dependencies on two different host platforms, towards the same outcome, whilst targeting these architectures:
 
-`armel` - `armhf` - `armv7` - `aarch64` - `x86_64` - `x86` - `s390x` - `powerpc` - `ppc64el` - `mips` - `mipsel` - `mips64` - `mips64el` - `riscv64`
+`aarch64` - `armel` - `armhf` - `armv7`
 
-This is done using <Tips>Debian crossbuild essentials:crossbuild-essentials</Tips> or <Tips>Musl Cross make toolchains:musl-cross-make</Tips>, depending on the host build platform.
+`x86` - `x86_64`
 
-Taking advantage of <Tips>Github Workflows:github-workflows</Tips> it has been designed to easily forked and reused. Fork it, customise it and build and release your own binaries.
+`powerpc` - `ppc64el`
+
+`mips` - `mipsel` - `mips64` - `mips64el`
+
+`s390x` - `riscv64`
+
+<Advanced>
+This is done using [Debian crossbuild essentials](glossary/crossbuild-essentials) or [Musl Cross make toolchains](glossary/musl-cross-make), depending on the host build platform.
+
+Taking advantage of [Github Workflows](glossary/github-workflows) it has been designed to easily forked and reused. Fork it, customise it and build and release your own binaries.
+</Advanced>
 
 :::tip The hard part is done.
-You always have a easy method available to you to build your own releases, simply by forking the repo and using the available workflows. How to do this will be shown in the <Tips>Github Actions:github-actions</Tips> sections later on. You can build locally or fork the repo and build and release using CI where the git repo acts as a local environment to the script.
+You always have a easy method available to you to build your own releases, simply by forking the repo and using the available workflows. How to do this will be shown in the [Github Actions](github-actions) sections later on. You can build locally or fork the repo and build and release using CI where the git repo acts as a local environment to the script.
 :::
-
-### What does it do?
 
 Simply put, on supported host build platforms the `qbittorrent-nox-static.sh` will perform these three main tasks:
 
 - Update the system and install the core build dependencies based on activated options - Requires root privileges if any dependencies are missing.
 
-- Download and build the `qbittorrent-nox` dependencies locally with no special privileges required.
+- Download and build the `qbittorrent-nox` and all dependencies locally with no special privileges required.
 
 - Build a fully static and portable `qbittorrent-nox` binary which automatically uses the latest version of all supported dependencies.
 
-The more advanced features will be discussed in their relevant sections.
+The script is highly configurable and is capable of native and cross building. These more advanced configurations will be discussed the next sections.
 
 ### What is the outcome
 
 🔵 Here is an example successful default build profile:
 
 ```none
-qBittorrent 4.5.1 was built with the following libraries:
+qBittorrent 4.6.3 was built with the following libraries:
 
-Qt: 6.5.0
-Libtorrent: 2.0.8
-Boost: 1.81.0
-OpenSSL: 3.1.0
+Qt: 6.6.2
+Libtorrent: 2.0.9
+Boost: 1.84.0
+OpenSSL: 3.2.1
 zlib: 1.2.13.zlib-ng
 ```
 

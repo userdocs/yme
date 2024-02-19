@@ -3,8 +3,6 @@ title: Script Installation
 hide_title: true
 ---
 
-<Advanced/>
-
 :::tip Guide mode toggle
 This documentation has a toggle in the nav menu to switch between a Basic and Advanced mode. In basic mode you'll see a version of the guide that assumes you have 0 knowledge of this project and how to use it.
 

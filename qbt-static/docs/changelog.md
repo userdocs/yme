@@ -1,9 +1,52 @@
----
-title: Changelog
-hide_title: true
----
+### 2.0.7 - 12-02-2024
 
-<Advanced/>
+Added: a boost download function to combine some logic around fallback urls and minimise external calls.
+Added: a check to build combos for qt + cmake to prevent env files trying to build a known bad combo.
+fixed: modules check for whole word and not accept partial matches
+fixed: associative arrays declared earlier and in a group to allow changing settings via functions
+
+### 2.0.6 - 2024-01-27
+
+New flag: `-si` / `--static-ish` for Debian, Ubuntu, and Alpine platforms. This flag disables LDFLAG static linking, allowing the OS libc to be dynamically linked.
+
+You cannot you this flag with cross compilation, only native host builds.
+
+Tests were added for ` static-ish` and `optimise` to check for bad combinations, exiting the script with a helpful reason when used in combination with cross compilation, as the build will fail.
+
+### v2.0.5 - 23-01-2024
+
+Codename: Copilot made me do it
+
+Improved readability of the colour variables used throughout the script.
+Some minor tweaks to OS detection
+Moved some things around or into their own functions and some error handling.
+Some changes to how cxx standard is handled and defined so the script will default to 23 when the conditions are met.
+minor bug fix - `qbt_libtorrent_version` displays correctly when using an RC github tag.
+
+Support for Ubuntu Noble added - Mantic removed as it's preferred to support LTS releases
+
+Ubuntu Focal - Jammy - Noble
+Debian Bullseye - Bookworm
+
+### v2.0.4 - 16-01-2024
+
+Make sure the workflow override applies when using cached dependencies
+Allow patching from a remote raw git patch via URL - an file called `url` in the patch repo for the module version that contains a URL to the raw patch
+other minor tweaks and cosmetic changes
+
+### v2.0.3 - 27-12-2023
+
+Fixed a regression from the V2 update where the host arch for `zlib-ng` was incorrectly set to `x86_64`, regardless of the actual host arch, when building on a non `x86_64` host to the same target arch (not cross building).
+
+https://github.com/userdocs/qbittorrent-nox-static/issues/131
+
+### v2.0.2 - 26-05-2023
+
+Set `ICU` default to `no`. It does not need to be forced to on as there is no longer a related bug and it also makes more sense when considering the `-i` toggle.
+
+### v2.0.1 - 15-05-2023
+
+Bug fix: `skip_icu` was being unset and defaulting to no. It is no longer unset and if set to skipped when using the module directly will still skip it.
 
 ### v2.0.0 - 03-04-2023
 

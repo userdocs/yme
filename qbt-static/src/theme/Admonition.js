@@ -27,6 +27,9 @@ export default function AdmonitionWrapper(props) {
   if (props.type == "caution") {
     return <Admonition icon={<Orange />} {...props} />;
   }
+  if (props.type == "warning") {
+    return <Admonition icon={<Orange />} {...props} />;
+  }
   if (props.type == "danger") {
     return <Admonition icon={<Red />} {...props} />;
   }

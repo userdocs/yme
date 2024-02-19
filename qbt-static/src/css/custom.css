@@ -180,7 +180,7 @@ a:hover {
 }
 
 .mytooltip {
-    padding: 20px 10px 5px 20px !important;
+    padding: 0px !important;
     font: inherit !important;
     font-size: medium !important;
     background: var(--ifm-color-primary) !important;
@@ -295,4 +295,11 @@ article ul li::marker {
 
 .default-toc-show {
     display: block;
+}
+
+.my_tooltip_url {
+    /* remember to set a width */
+    margin-right: auto;
+    margin-left: auto;
+    color: #337ab7;
 }

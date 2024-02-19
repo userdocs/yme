@@ -5,27 +5,31 @@ hide_title: true
 
 <Advanced/>
 
-## Patching info
+### Patching info
 
 The script supports the automatic patching of libtorrent and qbittorrent when building, providing certain conditions are met. You can do it in two ways, local or via a GitHub repo. Let's take a look at these methods.
 
-> [!tip|iconVisibility:hidden|labelVisibility:hidden|style:callout] Use the help command to get more infomation
->
-> ```bash
-> bash ~/qbittorrent-nox-static.sh -h-pr
-> ```
+:::tip
+Use the help command to get more information
+
+```bash
+bash ~/qbittorrent-nox-static.sh -h-pr
+```
+
+:::
 
 ### Local patching via boot strapping
 
 Here we will look bootstrapping the build process to make patching simple
 
-> [!note|iconVisibility:hidden|labelVisibility:hidden|style:callout] Using this command:
->
-> ```bash
-> bash ~/qbittorrent-nox-static.sh -bs
-> ```
->
-> the script will create the required directory structure using the current defaults.
+:::note
+Using this command the script will create the required directory structure using the current defaults
+
+```bash
+bash ~/qbittorrent-nox-static.sh -bs
+```
+
+:::
 
 The directory structure that will be created will look like this:
 
@@ -45,8 +49,6 @@ Then the patch file will be automatically matched to the tag used by the script 
 
 ### Using custom qBittorrent and libtorrent tags
 
-> [!tip|iconVisibility:hidden|labelVisibility:hidden|style:callout] Using custom qBittorrent and libtorrent tags
-
 You can change the defaults by using the `qt` and `lt` switches to specify a tag. So for example if you used this command:
 
 `bash ~/qbittorrent-nox-static.sh -qt master -lt RC_2_0 -bs`
@@ -58,26 +60,28 @@ qbt-build/patches/qbittorrent/master
 qbt-build/patches/libtorrent/RC_2_0
 ```
 
-> [!warning|iconVisibility:hidden|labelVisibility:hidden|style:callout] Remember to provide the same tags when using the build command or the patches won't match the defaults.
+:::caution
+Remember to provide the same tags when using the build command or the patches won't match the defaults.
+:::
 
 ```bash
 bash ~/qbittorrent-nox-static.sh -qt master -lt RC_2_0 all
 ```
 
-## Git based patching
+### Git based patching
 
 Instead of a local patch you can use github hosted patch files. Your patches need to be hosted in the root of the repo like this:
 
-<!-- tabs:start -->
-
-<!-- tab: qbittorrent -->
+<Tabs>
+  <TabItem value="qbittorrent" label="🔹 qbittorrent" default>
 
 ```bash
 patches/qbittorrent/master/patch
 patches/qbittorrent/4.5.0/patch
 ```
 
-<!-- tab: libtorrent -->
+  </TabItem>
+  <TabItem value="libtorrent" label="🔹 libtorrent">
 
 ```bash
 patches/libtorrent/RC_2_0/patch
@@ -85,7 +89,8 @@ patches/libtorrent/RC_1_2/patch
 patches/libtorrent/v1.2.12/patch
 ```
 
-<!-- tabs:end -->
+  </TabItem>
+</Tabs>
 
 The all you do is use the `pr` switch when using the script. The repo URL is abbreviated to your username and repo:
 

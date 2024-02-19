@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("./src/prism/themes/aura/aura-soft-dark-color-theme.js");
-const darkCodeTheme = require("./src/prism/themes/aura/aura-soft-dark-color-theme.js");
+import lightCodeTheme from "./src/prism/themes/aura/aura-soft-dark-color-theme.js";
+import darkCodeTheme from "./src/prism/themes/aura/aura-soft-dark-color-theme.js";
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -50,8 +51,6 @@ const config = {
       }),
     ],
   ],
-
-  themes: ["docusaurus-theme-github-codeblock"],
 
   plugins: [
     [
@@ -103,6 +102,7 @@ const config = {
         ],
       },
       prism: {
+        additionalLanguages: ["bash", "yaml", "json", "nginx", "ini", "docker"],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         magicComments: [
@@ -126,4 +126,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+export default config;

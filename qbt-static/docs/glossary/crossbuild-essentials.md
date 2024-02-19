@@ -11,6 +11,16 @@ When building on supported Debian based hosts we use the official crossbuild-ess
 
 On the modern distros like Bullseye and Jammy there is a wide range of supported cross build targets available.
 
-🟨 Only Bullseye and Jammy have the full range of support we need to match the Alpine host options.
+:::caution
+Only Bullseye and Jammy onwards have the full range of support we need to match the Alpine host options.
+:::
 
-Please look [here](https://packages.debian.org/search?searchon=names&keywords=crossbuild-essential) to see which options are available for which release.
+Please look a the links below to see which options are available for which platform and release.
+
+[Debian cross build essential toolchains](https://packages.debian.org/search?keywords=crossbuild-essential-&searchon=names)
+
+[Ubuntu cross build essential toolchains](https://packages.ubuntu.com/search?keywords=crossbuild-essential-&searchon=names)
+
+:::note
+Ubuntu provides one additional package over Debian - `crossbuild-essential-riscv64`
+:::
