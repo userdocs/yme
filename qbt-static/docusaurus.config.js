@@ -1,9 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import lightCodeTheme from "./src/prism/themes/aura/aura-soft-dark-color-theme.js";
-import darkCodeTheme from "./src/prism/themes/aura/aura-soft-dark-color-theme.js";
 import { themes as prismThemes } from "prism-react-renderer";
+import PrismDark from "./src/prism/themes/custom/aura-custom.ts";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,7 +14,7 @@ const config = {
   url: "https://userdocs.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/yme",
+  baseUrl: "/qbittorrent-nox-static",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -103,8 +102,8 @@ const config = {
       },
       prism: {
         additionalLanguages: ["bash", "yaml", "json", "nginx", "ini", "docker"],
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: PrismDark,
         magicComments: [
           // Remember to extend the default highlight class name as well!
           {
