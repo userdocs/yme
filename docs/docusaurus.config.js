@@ -10,13 +10,13 @@ import {
   transformerNotationFocus,
 } from "@shikijs/transformers";
 
-import yolo from "./src/theme/aura-soft-dark-soft-text-color-theme.json";
+import auraSoftDark from "./src/theme/aura-soft-dark-soft-text-color-theme.json";
 
 const rehypeShikiPlugin = [
   rehypeShiki,
   {
     themes: {
-      dark: yolo,
+      dark: auraSoftDark,
       light: "github-light",
     },
 
@@ -53,7 +53,7 @@ const config = {
   url: "https://userdocs.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/qbittorrent-nox-static",
+  baseUrl: "/yme",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
