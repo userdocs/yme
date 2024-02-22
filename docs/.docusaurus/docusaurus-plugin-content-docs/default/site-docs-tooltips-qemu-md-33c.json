@@ -1,0 +1,17 @@
+{
+  "id": "tooltips/qemu",
+  "title": "Qemu emulation",
+  "description": "Qemu is a generic and open source machine emulator and virtualizer",
+  "source": "@site/docs/tooltips/qemu.md",
+  "sourceDirName": "tooltips",
+  "slug": "/tooltips/qemu",
+  "permalink": "/yme/docs/tooltips/qemu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/tooltips/qemu.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Qemu emulation"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tooltips/buildjet",
+  "title": "BuildJet for Github Actions",
+  "description": "A paid for alternative to self hosted runners that allow for native arm runners as well as increased cores for faster build times.",
+  "source": "@site/docs/tooltips/buildjet.md",
+  "sourceDirName": "tooltips",
+  "slug": "/tooltips/buildjet",
+  "permalink": "/yme/docs/tooltips/buildjet",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/tooltips/buildjet.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "BuildJet for Github Actions"
+  }
+}

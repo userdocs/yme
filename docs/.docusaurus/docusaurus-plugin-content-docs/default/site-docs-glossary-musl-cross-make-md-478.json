@@ -1,0 +1,17 @@
+{
+  "id": "glossary/musl-cross-make",
+  "title": "Musl Cross Make",
+  "description": "Custom musl crossbuild toolchains based on musl.cc",
+  "source": "@site/docs/glossary/musl-cross-make.md",
+  "sourceDirName": "glossary",
+  "slug": "/glossary/musl-cross-make",
+  "permalink": "/qbittorrent-nox-static/docs/glossary/musl-cross-make",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/musl-cross-make.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Musl Cross Make"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "glossary/github",
+  "title": "Github website",
+  "description": "Custom musl crossbuild toolchains based on musl.cc, click to know more.",
+  "source": "@site/docs/glossary/github.md",
+  "sourceDirName": "glossary",
+  "slug": "/glossary/github",
+  "permalink": "/qbittorrent-nox-static/docs/glossary/github",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/github.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Github website"
+  }
+}

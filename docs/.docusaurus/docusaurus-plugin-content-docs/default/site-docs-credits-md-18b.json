@@ -1,0 +1,27 @@
+{
+  "id": "credits",
+  "title": "Credits",
+  "description": "Inspired by gists from this author",
+  "source": "@site/docs/credits.md",
+  "sourceDirName": ".",
+  "slug": "/credits",
+  "permalink": "/qbittorrent-nox-static/docs/credits",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/credits.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Credits",
+    "hide_title": true
+  },
+  "sidebar": "qtb_sidebar",
+  "previous": {
+    "title": "Github Actions",
+    "permalink": "/qbittorrent-nox-static/docs/github-actions"
+  },
+  "next": {
+    "title": "changelog",
+    "permalink": "/qbittorrent-nox-static/docs/changelog"
+  }
+}

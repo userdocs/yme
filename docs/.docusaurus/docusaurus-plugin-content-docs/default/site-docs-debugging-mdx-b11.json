@@ -1,0 +1,27 @@
+{
+  "id": "debugging",
+  "title": "Debugging",
+  "description": "To properly debug a segfault the build will need to have been built with libtorrent and qbitorrent debug symbols.",
+  "source": "@site/docs/debugging.mdx",
+  "sourceDirName": ".",
+  "slug": "/debugging",
+  "permalink": "/yme/docs/debugging",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/debugging.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Debugging",
+    "hide_title": true
+  },
+  "sidebar": "qtb_sidebar",
+  "previous": {
+    "title": "Patching",
+    "permalink": "/yme/docs/patching"
+  },
+  "next": {
+    "title": "Installing nox",
+    "permalink": "/yme/docs/install-qbittorrent"
+  }
+}

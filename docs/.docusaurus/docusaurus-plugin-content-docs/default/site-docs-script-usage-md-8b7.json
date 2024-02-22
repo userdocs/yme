@@ -1,0 +1,27 @@
+{
+  "id": "script-usage",
+  "title": "Script Usage",
+  "description": "First run expectations",
+  "source": "@site/docs/script-usage.md",
+  "sourceDirName": ".",
+  "slug": "/script-usage",
+  "permalink": "/qbittorrent-nox-static/docs/script-usage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/script-usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Script Usage",
+    "hide_title": true
+  },
+  "sidebar": "qtb_sidebar",
+  "previous": {
+    "title": "Script Installation",
+    "permalink": "/qbittorrent-nox-static/docs/script-installation"
+  },
+  "next": {
+    "title": "Build Help",
+    "permalink": "/qbittorrent-nox-static/docs/build-help"
+  }
+}

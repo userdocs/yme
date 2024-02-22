@@ -1,0 +1,18 @@
+{
+  "id": "bash",
+  "title": "Build Help",
+  "description": "Build Help",
+  "source": "@site/docs/bash.mdx",
+  "sourceDirName": ".",
+  "slug": "/bash",
+  "permalink": "/qbittorrent-nox-static/docs/bash",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/bash.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Build Help",
+    "description": "Build Help"
+  }
+}

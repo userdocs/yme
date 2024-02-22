@@ -1,0 +1,17 @@
+{
+  "id": "glossary/github-workflows",
+  "title": "Github Workflows",
+  "description": "A workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository, or they can be triggered manually, or at a defined schedule.",
+  "source": "@site/docs/glossary/github-workflows.md",
+  "sourceDirName": "glossary",
+  "slug": "/glossary/github-workflows",
+  "permalink": "/qbittorrent-nox-static/docs/glossary/github-workflows",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/github-workflows.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Github Workflows"
+  }
+}

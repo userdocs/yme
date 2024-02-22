@@ -1,0 +1,665 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/qbittorrent-nox-static/docs",
+          "tagsPath": "/qbittorrent-nox-static/docs/tags",
+          "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs",
+          "editUrlLocalized": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "I:\\github\\yme\\qbt-static\\sidebars.js",
+          "contentPath": "I:\\github\\yme\\qbt-static\\docs",
+          "contentPathLocalized": "I:\\github\\yme\\qbt-static\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "bash",
+              "title": "Build Help",
+              "description": "Build Help",
+              "source": "@site/docs/bash.md",
+              "sourceDirName": ".",
+              "slug": "/bash",
+              "permalink": "/qbittorrent-nox-static/docs/bash",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/bash.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Build Help",
+                "description": "Build Help"
+              }
+            },
+            {
+              "id": "build-help",
+              "title": "Build Help",
+              "description": "Once the script has successfully configured the platform you can execute the help switch to see how it works and what options you have available to you.",
+              "source": "@site/docs/build-help.md",
+              "sourceDirName": ".",
+              "slug": "/build-help",
+              "permalink": "/qbittorrent-nox-static/docs/build-help",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/build-help.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Build Help",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Script Usage",
+                "permalink": "/qbittorrent-nox-static/docs/script-usage"
+              },
+              "next": {
+                "title": "Patching",
+                "permalink": "/qbittorrent-nox-static/docs/patching"
+              }
+            },
+            {
+              "id": "changelog",
+              "title": "changelog",
+              "description": "2.0.7 - 12-02-2024",
+              "source": "@site/docs/changelog.md",
+              "sourceDirName": ".",
+              "slug": "/changelog",
+              "permalink": "/qbittorrent-nox-static/docs/changelog",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/changelog.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Credits",
+                "permalink": "/qbittorrent-nox-static/docs/credits"
+              }
+            },
+            {
+              "id": "credits",
+              "title": "Credits",
+              "description": "Inspired by gists from this author",
+              "source": "@site/docs/credits.md",
+              "sourceDirName": ".",
+              "slug": "/credits",
+              "permalink": "/qbittorrent-nox-static/docs/credits",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/credits.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Credits",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Github Actions",
+                "permalink": "/qbittorrent-nox-static/docs/github-actions"
+              },
+              "next": {
+                "title": "changelog",
+                "permalink": "/qbittorrent-nox-static/docs/changelog"
+              }
+            },
+            {
+              "id": "debugging",
+              "title": "Debugging",
+              "description": "To properly debug a segfault the build will need to have been built with libtorrent and qbitorrent debug symbols.",
+              "source": "@site/docs/debugging.md",
+              "sourceDirName": ".",
+              "slug": "/debugging",
+              "permalink": "/qbittorrent-nox-static/docs/debugging",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/debugging.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Debugging",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Patching",
+                "permalink": "/qbittorrent-nox-static/docs/patching"
+              },
+              "next": {
+                "title": "Installing nox",
+                "permalink": "/qbittorrent-nox-static/docs/install-qbittorrent"
+              }
+            },
+            {
+              "id": "github-actions",
+              "title": "Github Actions",
+              "description": "There are some actions created that will build the binaries and create and artifacts. They can be viewed here:",
+              "source": "@site/docs/github-actions.md",
+              "sourceDirName": ".",
+              "slug": "/github-actions",
+              "permalink": "/qbittorrent-nox-static/docs/github-actions",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/github-actions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Github Actions",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Systemd",
+                "permalink": "/qbittorrent-nox-static/docs/systemd"
+              },
+              "next": {
+                "title": "Credits",
+                "permalink": "/qbittorrent-nox-static/docs/credits"
+              }
+            },
+            {
+              "id": "glossary",
+              "title": "Glossary",
+              "description": "These Glossary items of of key words or phrases used in the docs. Each item has it's own page with a mini summary.",
+              "source": "@site/docs/glossary.md",
+              "sourceDirName": ".",
+              "slug": "/glossary",
+              "permalink": "/qbittorrent-nox-static/docs/glossary",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "glossary",
+                "title": "Glossary",
+                "hide_title": true
+              }
+            },
+            {
+              "id": "glossary/buildjet",
+              "title": "BuildJet for Github Actions",
+              "description": "A paid for alternative to self hosted runners that allow for native arm runners as well as increased cores for faster build times.",
+              "source": "@site/docs/glossary/buildjet.md",
+              "sourceDirName": "glossary",
+              "slug": "/glossary/buildjet",
+              "permalink": "/qbittorrent-nox-static/docs/glossary/buildjet",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/buildjet.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "BuildJet for Github Actions"
+              }
+            },
+            {
+              "id": "glossary/crossbuild-essentials",
+              "title": "Debian Crossbuild-Essentials",
+              "description": "Native Debian and Ubuntu cross build toolchains for cross compiling, used when a supported Debian based OS is the Host.",
+              "source": "@site/docs/glossary/crossbuild-essentials.md",
+              "sourceDirName": "glossary",
+              "slug": "/glossary/crossbuild-essentials",
+              "permalink": "/qbittorrent-nox-static/docs/glossary/crossbuild-essentials",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/crossbuild-essentials.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Debian Crossbuild-Essentials",
+                "hide_title": true
+              }
+            },
+            {
+              "id": "glossary/docker",
+              "title": "Docker",
+              "description": "This is a more detailed explanation for the term. The hoverText metadata provides a preview of the examplanation.",
+              "source": "@site/docs/glossary/docker.md",
+              "sourceDirName": "glossary",
+              "slug": "/glossary/docker",
+              "permalink": "/qbittorrent-nox-static/docs/glossary/docker",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/docker.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "docker",
+                "title": "Docker",
+                "hoverText": "Docker this and that"
+              }
+            },
+            {
+              "id": "glossary/github",
+              "title": "Github website",
+              "description": "Custom musl crossbuild toolchains based on musl.cc, click to know more.",
+              "source": "@site/docs/glossary/github.md",
+              "sourceDirName": "glossary",
+              "slug": "/glossary/github",
+              "permalink": "/qbittorrent-nox-static/docs/glossary/github",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/github.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Github website"
+              }
+            },
+            {
+              "id": "glossary/github-actions",
+              "title": "Github Actions",
+              "description": "GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.",
+              "source": "@site/docs/glossary/github-actions.md",
+              "sourceDirName": "glossary",
+              "slug": "/glossary/github-actions",
+              "permalink": "/qbittorrent-nox-static/docs/glossary/github-actions",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/github-actions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Github Actions"
+              }
+            },
+            {
+              "id": "glossary/github-releases",
+              "title": "github-releases",
+              "description": "",
+              "source": "@site/docs/glossary/github-releases.md",
+              "sourceDirName": "glossary",
+              "slug": "/glossary/github-releases",
+              "permalink": "/qbittorrent-nox-static/docs/glossary/github-releases",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/github-releases.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "glossary/github-workflows",
+              "title": "Github Workflows",
+              "description": "A workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository, or they can be triggered manually, or at a defined schedule.",
+              "source": "@site/docs/glossary/github-workflows.md",
+              "sourceDirName": "glossary",
+              "slug": "/glossary/github-workflows",
+              "permalink": "/qbittorrent-nox-static/docs/glossary/github-workflows",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/github-workflows.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Github Workflows"
+              }
+            },
+            {
+              "id": "glossary/musl-cross-make",
+              "title": "Musl Cross Make",
+              "description": "Custom musl crossbuild toolchains based on musl.cc",
+              "source": "@site/docs/glossary/musl-cross-make.md",
+              "sourceDirName": "glossary",
+              "slug": "/glossary/musl-cross-make",
+              "permalink": "/qbittorrent-nox-static/docs/glossary/musl-cross-make",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/musl-cross-make.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Musl Cross Make"
+              }
+            },
+            {
+              "id": "glossary/qemu",
+              "title": "Qemu emulation",
+              "description": "Qemu is a generic and open source machine emulator and virtualizer",
+              "source": "@site/docs/glossary/qemu.md",
+              "sourceDirName": "glossary",
+              "slug": "/glossary/qemu",
+              "permalink": "/qbittorrent-nox-static/docs/glossary/qemu",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/glossary/qemu.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Qemu emulation"
+              }
+            },
+            {
+              "id": "home",
+              "title": "home",
+              "description": "This build tool is an end user complexity inverter. It makes building a fully static and optimised qbittorrent-nox binary easy.",
+              "source": "@site/docs/home.md",
+              "sourceDirName": ".",
+              "slug": "/home",
+              "permalink": "/qbittorrent-nox-static/docs/home",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/home.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "install-qbittorrent",
+              "title": "Installing nox",
+              "description": "Once the script has successfully built qbittorrent-nox you can install the binary using this command:",
+              "source": "@site/docs/install-qbittorrent.md",
+              "sourceDirName": ".",
+              "slug": "/install-qbittorrent",
+              "permalink": "/qbittorrent-nox-static/docs/install-qbittorrent",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/install-qbittorrent.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Installing nox",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Debugging",
+                "permalink": "/qbittorrent-nox-static/docs/debugging"
+              },
+              "next": {
+                "title": "Nginx proxy",
+                "permalink": "/qbittorrent-nox-static/docs/nginx-proxypass"
+              }
+            },
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "description": "What is it?",
+              "source": "@site/docs/introduction.md",
+              "sourceDirName": ".",
+              "slug": "/introduction",
+              "permalink": "/qbittorrent-nox-static/docs/introduction",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Introduction",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "next": {
+                "title": "Prerequisite Check list",
+                "permalink": "/qbittorrent-nox-static/docs/Prerequisites"
+              }
+            },
+            {
+              "id": "nginx-proxypass",
+              "title": "Nginx proxy",
+              "description": "",
+              "source": "@site/docs/nginx-proxypass.md",
+              "sourceDirName": ".",
+              "slug": "/nginx-proxypass",
+              "permalink": "/qbittorrent-nox-static/docs/nginx-proxypass",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/nginx-proxypass.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Nginx proxy",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Installing nox",
+                "permalink": "/qbittorrent-nox-static/docs/install-qbittorrent"
+              },
+              "next": {
+                "title": "Systemd",
+                "permalink": "/qbittorrent-nox-static/docs/systemd"
+              }
+            },
+            {
+              "id": "patching",
+              "title": "Patching",
+              "description": "Patching info",
+              "source": "@site/docs/patching.md",
+              "sourceDirName": ".",
+              "slug": "/patching",
+              "permalink": "/qbittorrent-nox-static/docs/patching",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/patching.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Patching",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Build Help",
+                "permalink": "/qbittorrent-nox-static/docs/build-help"
+              },
+              "next": {
+                "title": "Debugging",
+                "permalink": "/qbittorrent-nox-static/docs/debugging"
+              }
+            },
+            {
+              "id": "Prerequisites",
+              "title": "Prerequisite Check list",
+              "description": "Github workflows can meet all these requirements to build and patch and is free to use and takes a fixed amount of time.",
+              "source": "@site/docs/Prerequisites.md",
+              "sourceDirName": ".",
+              "slug": "/Prerequisites",
+              "permalink": "/qbittorrent-nox-static/docs/Prerequisites",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/Prerequisites.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Prerequisite Check list",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/qbittorrent-nox-static/docs/introduction"
+              },
+              "next": {
+                "title": "Script Installation",
+                "permalink": "/qbittorrent-nox-static/docs/script-installation"
+              }
+            },
+            {
+              "id": "script-installation",
+              "title": "Script Installation",
+              "description": "This documentation has a toggle in the nav menu to switch between a Basic and Advanced mode. In basic mode you'll see a version of the guide that assumes you have 0 knowledge of this project and how to use it.",
+              "source": "@site/docs/script-installation.md",
+              "sourceDirName": ".",
+              "slug": "/script-installation",
+              "permalink": "/qbittorrent-nox-static/docs/script-installation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/script-installation.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Script Installation",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Prerequisite Check list",
+                "permalink": "/qbittorrent-nox-static/docs/Prerequisites"
+              },
+              "next": {
+                "title": "Script Usage",
+                "permalink": "/qbittorrent-nox-static/docs/script-usage"
+              }
+            },
+            {
+              "id": "script-usage",
+              "title": "Script Usage",
+              "description": "First run expectations",
+              "source": "@site/docs/script-usage.md",
+              "sourceDirName": ".",
+              "slug": "/script-usage",
+              "permalink": "/qbittorrent-nox-static/docs/script-usage",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/script-usage.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Script Usage",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Script Installation",
+                "permalink": "/qbittorrent-nox-static/docs/script-installation"
+              },
+              "next": {
+                "title": "Build Help",
+                "permalink": "/qbittorrent-nox-static/docs/build-help"
+              }
+            },
+            {
+              "id": "systemd",
+              "title": "Systemd",
+              "description": "Systemd service",
+              "source": "@site/docs/systemd.md",
+              "sourceDirName": ".",
+              "slug": "/systemd",
+              "permalink": "/qbittorrent-nox-static/docs/systemd",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/systemd.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Systemd",
+                "hide_title": true
+              },
+              "sidebar": "qtb_sidebar",
+              "previous": {
+                "title": "Nginx proxy",
+                "permalink": "/qbittorrent-nox-static/docs/nginx-proxypass"
+              },
+              "next": {
+                "title": "Github Actions",
+                "permalink": "/qbittorrent-nox-static/docs/github-actions"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "qtb_sidebar": [
+              {
+                "type": "doc",
+                "id": "introduction"
+              },
+              {
+                "type": "doc",
+                "id": "Prerequisites"
+              },
+              {
+                "type": "doc",
+                "id": "script-installation"
+              },
+              {
+                "type": "doc",
+                "id": "script-usage"
+              },
+              {
+                "type": "doc",
+                "id": "build-help"
+              },
+              {
+                "type": "doc",
+                "id": "patching"
+              },
+              {
+                "type": "doc",
+                "id": "debugging"
+              },
+              {
+                "type": "doc",
+                "id": "install-qbittorrent"
+              },
+              {
+                "type": "doc",
+                "id": "nginx-proxypass"
+              },
+              {
+                "type": "doc",
+                "id": "systemd"
+              },
+              {
+                "type": "doc",
+                "id": "github-actions"
+              },
+              {
+                "type": "doc",
+                "id": "credits"
+              },
+              {
+                "type": "doc",
+                "id": "changelog"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/qbittorrent-nox-static/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/qbittorrent-nox-static/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/qbittorrent-nox-static/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-plugin-remote-content-some-content": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

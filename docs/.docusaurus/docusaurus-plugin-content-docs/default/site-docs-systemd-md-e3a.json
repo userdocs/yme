@@ -1,0 +1,27 @@
+{
+  "id": "systemd",
+  "title": "Systemd",
+  "description": "Systemd service",
+  "source": "@site/docs/systemd.md",
+  "sourceDirName": ".",
+  "slug": "/systemd",
+  "permalink": "/qbittorrent-nox-static/docs/systemd",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/systemd.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Systemd",
+    "hide_title": true
+  },
+  "sidebar": "qtb_sidebar",
+  "previous": {
+    "title": "Nginx proxy",
+    "permalink": "/qbittorrent-nox-static/docs/nginx-proxypass"
+  },
+  "next": {
+    "title": "Github Actions",
+    "permalink": "/qbittorrent-nox-static/docs/github-actions"
+  }
+}

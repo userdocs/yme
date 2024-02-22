@@ -1,0 +1,27 @@
+{
+  "id": "build-help",
+  "title": "Build Help",
+  "description": "Once the script has successfully configured the platform you can execute the help switch to see how it works and what options you have available to you.",
+  "source": "@site/docs/build-help.md",
+  "sourceDirName": ".",
+  "slug": "/build-help",
+  "permalink": "/qbittorrent-nox-static/docs/build-help",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/build-help.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Build Help",
+    "hide_title": true
+  },
+  "sidebar": "qtb_sidebar",
+  "previous": {
+    "title": "Script Usage",
+    "permalink": "/qbittorrent-nox-static/docs/script-usage"
+  },
+  "next": {
+    "title": "Patching",
+    "permalink": "/qbittorrent-nox-static/docs/patching"
+  }
+}

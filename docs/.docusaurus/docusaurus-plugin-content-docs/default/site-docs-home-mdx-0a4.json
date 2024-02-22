@@ -1,0 +1,15 @@
+{
+  "id": "home",
+  "title": "home",
+  "description": "This build tool is an end user complexity inverter. It makes building a fully static and optimised qbittorrent-nox binary easy.",
+  "source": "@site/docs/home.mdx",
+  "sourceDirName": ".",
+  "slug": "/home",
+  "permalink": "/yme/docs/home",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/home.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

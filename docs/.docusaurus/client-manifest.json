@@ -1,0 +1,511 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "152": [
+      85,
+      195,
+      532,
+      918,
+      152
+    ],
+    "772": [
+      772
+    ],
+    "17896441": [
+      152,
+      532,
+      918
+    ],
+    "91261517": [
+      873
+    ],
+    "main": [
+      303,
+      532,
+      179
+    ],
+    "runtime~main": [
+      179,
+      532,
+      303
+    ],
+    "020b02e8": [
+      903
+    ],
+    "037294e3": [
+      235
+    ],
+    "03c781a1": [
+      623
+    ],
+    "041dcb9b": [
+      435
+    ],
+    "18ba09e8": [
+      657
+    ],
+    "1f391b9e": [
+      152,
+      532,
+      85
+    ],
+    "2bccb399": [
+      325
+    ],
+    "393be207": [
+      414
+    ],
+    "3cb663bf": [
+      462
+    ],
+    "3d9c95a4": [
+      125
+    ],
+    "4787da7a": [
+      973
+    ],
+    "4f8fbcef": [
+      366
+    ],
+    "5e95c892": [
+      661
+    ],
+    "6c93c5ee": [
+      207
+    ],
+    "80443fc7": [
+      730
+    ],
+    "8b761135": [
+      103
+    ],
+    "92056b59": [
+      27
+    ],
+    "935f2afb": [
+      53
+    ],
+    "9beb87c2": [
+      80
+    ],
+    "9f254c30": [
+      51
+    ],
+    "a09c2993": [
+      128
+    ],
+    "a7bd4aaa": [
+      518
+    ],
+    "a94703ab": [
+      532,
+      368
+    ],
+    "aaca58fa": [
+      716
+    ],
+    "ad384cef": [
+      234
+    ],
+    "afd67df7": [
+      879
+    ],
+    "c4f5d8e4": [
+      152,
+      532,
+      195
+    ],
+    "d410d838": [
+      780
+    ],
+    "e3afc9c9": [
+      495
+    ],
+    "e747ec83": [
+      291
+    ],
+    "e9ee8e33": [
+      837
+    ],
+    "f2d6713f": [
+      717
+    ],
+    "f95cdabd": [
+      391
+    ],
+    "styles": [
+      85,
+      152,
+      179,
+      195,
+      303,
+      368,
+      918,
+      532
+    ]
+  },
+  "assets": {
+    "27": {
+      "js": [
+        {
+          "file": "assets/js/92056b59.b1d66677.js",
+          "hash": "60f3d79af66f03d7",
+          "publicPath": "/qbittorrent-nox-static/assets/js/92056b59.b1d66677.js"
+        }
+      ]
+    },
+    "51": {
+      "js": [
+        {
+          "file": "assets/js/9f254c30.b6330f3a.js",
+          "hash": "e6b9b142dfe5a5de",
+          "publicPath": "/qbittorrent-nox-static/assets/js/9f254c30.b6330f3a.js"
+        }
+      ]
+    },
+    "53": {
+      "js": [
+        {
+          "file": "assets/js/935f2afb.2c56c71e.js",
+          "hash": "77d75e6d9609503f",
+          "publicPath": "/qbittorrent-nox-static/assets/js/935f2afb.2c56c71e.js"
+        }
+      ]
+    },
+    "80": {
+      "js": [
+        {
+          "file": "assets/js/9beb87c2.d408b911.js",
+          "hash": "19423557ff98daa9",
+          "publicPath": "/qbittorrent-nox-static/assets/js/9beb87c2.d408b911.js"
+        }
+      ]
+    },
+    "85": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.6f0575dd.js",
+          "hash": "3b5d5a3cf77afd0c",
+          "publicPath": "/qbittorrent-nox-static/assets/js/1f391b9e.6f0575dd.js"
+        }
+      ]
+    },
+    "103": {
+      "js": [
+        {
+          "file": "assets/js/8b761135.b40a5430.js",
+          "hash": "50bbd840c06455e1",
+          "publicPath": "/qbittorrent-nox-static/assets/js/8b761135.b40a5430.js"
+        }
+      ]
+    },
+    "125": {
+      "js": [
+        {
+          "file": "assets/js/3d9c95a4.36bc48a3.js",
+          "hash": "dda93172a5e0f082",
+          "publicPath": "/qbittorrent-nox-static/assets/js/3d9c95a4.36bc48a3.js"
+        }
+      ]
+    },
+    "128": {
+      "js": [
+        {
+          "file": "assets/js/a09c2993.6f29bf0c.js",
+          "hash": "e9e2b241a87d590d",
+          "publicPath": "/qbittorrent-nox-static/assets/js/a09c2993.6f29bf0c.js"
+        }
+      ]
+    },
+    "152": {
+      "js": [
+        {
+          "file": "assets/js/152.ce5acfdb.js",
+          "hash": "ffaa83ee0e003b07",
+          "publicPath": "/qbittorrent-nox-static/assets/js/152.ce5acfdb.js"
+        }
+      ]
+    },
+    "179": {
+      "js": [
+        {
+          "file": "assets/js/main.107cb3dd.js",
+          "hash": "00c893ca0fec3f75",
+          "publicPath": "/qbittorrent-nox-static/assets/js/main.107cb3dd.js"
+        }
+      ]
+    },
+    "195": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.ee37a941.js",
+          "hash": "47afc83b05a0402f",
+          "publicPath": "/qbittorrent-nox-static/assets/js/c4f5d8e4.ee37a941.js"
+        }
+      ]
+    },
+    "207": {
+      "js": [
+        {
+          "file": "assets/js/6c93c5ee.f7c62600.js",
+          "hash": "9ab7f4f49abe9afa",
+          "publicPath": "/qbittorrent-nox-static/assets/js/6c93c5ee.f7c62600.js"
+        }
+      ]
+    },
+    "234": {
+      "js": [
+        {
+          "file": "assets/js/ad384cef.2850931b.js",
+          "hash": "31deffa5282bf0af",
+          "publicPath": "/qbittorrent-nox-static/assets/js/ad384cef.2850931b.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/037294e3.94ee41de.js",
+          "hash": "ad46f70e0a4c2b0c",
+          "publicPath": "/qbittorrent-nox-static/assets/js/037294e3.94ee41de.js"
+        }
+      ]
+    },
+    "291": {
+      "js": [
+        {
+          "file": "assets/js/e747ec83.7d9d4561.js",
+          "hash": "551775c3d0b85e3e",
+          "publicPath": "/qbittorrent-nox-static/assets/js/e747ec83.7d9d4561.js"
+        }
+      ]
+    },
+    "303": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.f3393ba7.js",
+          "hash": "af141fde26b518a6",
+          "publicPath": "/qbittorrent-nox-static/assets/js/runtime~main.f3393ba7.js"
+        }
+      ]
+    },
+    "325": {
+      "js": [
+        {
+          "file": "assets/js/2bccb399.597e8fec.js",
+          "hash": "4d52d043fd355bc9",
+          "publicPath": "/qbittorrent-nox-static/assets/js/2bccb399.597e8fec.js"
+        }
+      ]
+    },
+    "366": {
+      "js": [
+        {
+          "file": "assets/js/4f8fbcef.941b7a4f.js",
+          "hash": "c7a01f176eff043c",
+          "publicPath": "/qbittorrent-nox-static/assets/js/4f8fbcef.941b7a4f.js"
+        }
+      ]
+    },
+    "368": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.8275bb41.js",
+          "hash": "07a3d5e3863eacaf",
+          "publicPath": "/qbittorrent-nox-static/assets/js/a94703ab.8275bb41.js"
+        }
+      ]
+    },
+    "391": {
+      "js": [
+        {
+          "file": "assets/js/f95cdabd.92dc9c4b.js",
+          "hash": "be8624278db5ba5e",
+          "publicPath": "/qbittorrent-nox-static/assets/js/f95cdabd.92dc9c4b.js"
+        }
+      ]
+    },
+    "414": {
+      "js": [
+        {
+          "file": "assets/js/393be207.aed20cbf.js",
+          "hash": "1bd5371479bf61f6",
+          "publicPath": "/qbittorrent-nox-static/assets/js/393be207.aed20cbf.js"
+        }
+      ]
+    },
+    "435": {
+      "js": [
+        {
+          "file": "assets/js/041dcb9b.b54a2967.js",
+          "hash": "e47f6e108a86c612",
+          "publicPath": "/qbittorrent-nox-static/assets/js/041dcb9b.b54a2967.js"
+        }
+      ]
+    },
+    "462": {
+      "js": [
+        {
+          "file": "assets/js/3cb663bf.dec23f79.js",
+          "hash": "c77b1e4df9560c28",
+          "publicPath": "/qbittorrent-nox-static/assets/js/3cb663bf.dec23f79.js"
+        }
+      ]
+    },
+    "495": {
+      "js": [
+        {
+          "file": "assets/js/e3afc9c9.7bfbd426.js",
+          "hash": "81ce206299b89d4b",
+          "publicPath": "/qbittorrent-nox-static/assets/js/e3afc9c9.7bfbd426.js"
+        }
+      ]
+    },
+    "518": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.8a3110c0.js",
+          "hash": "8efe2930ac43b4d9",
+          "publicPath": "/qbittorrent-nox-static/assets/js/a7bd4aaa.8a3110c0.js"
+        }
+      ]
+    },
+    "532": {
+      "css": [
+        {
+          "file": "assets/css/styles.8bab2327.css",
+          "hash": "8832743c30301400",
+          "publicPath": "/qbittorrent-nox-static/assets/css/styles.8bab2327.css"
+        }
+      ]
+    },
+    "623": {
+      "js": [
+        {
+          "file": "assets/js/03c781a1.05192b56.js",
+          "hash": "fa6b64bec9d91a57",
+          "publicPath": "/qbittorrent-nox-static/assets/js/03c781a1.05192b56.js"
+        }
+      ]
+    },
+    "657": {
+      "js": [
+        {
+          "file": "assets/js/18ba09e8.415becaa.js",
+          "hash": "d891de95f502dc79",
+          "publicPath": "/qbittorrent-nox-static/assets/js/18ba09e8.415becaa.js"
+        }
+      ]
+    },
+    "661": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.8b78be0b.js",
+          "hash": "1b40b859c8bb49de",
+          "publicPath": "/qbittorrent-nox-static/assets/js/5e95c892.8b78be0b.js"
+        }
+      ]
+    },
+    "716": {
+      "js": [
+        {
+          "file": "assets/js/aaca58fa.e6d6150e.js",
+          "hash": "448198767848ac3b",
+          "publicPath": "/qbittorrent-nox-static/assets/js/aaca58fa.e6d6150e.js"
+        }
+      ]
+    },
+    "717": {
+      "js": [
+        {
+          "file": "assets/js/f2d6713f.11e863d9.js",
+          "hash": "6eb56108fbf3362d",
+          "publicPath": "/qbittorrent-nox-static/assets/js/f2d6713f.11e863d9.js"
+        }
+      ]
+    },
+    "730": {
+      "js": [
+        {
+          "file": "assets/js/80443fc7.d8205f9d.js",
+          "hash": "fa542b13b7a04c68",
+          "publicPath": "/qbittorrent-nox-static/assets/js/80443fc7.d8205f9d.js"
+        }
+      ]
+    },
+    "772": {
+      "js": [
+        {
+          "file": "assets/js/772.974a436c.js",
+          "hash": "4184e6f0361c1123",
+          "publicPath": "/qbittorrent-nox-static/assets/js/772.974a436c.js"
+        }
+      ]
+    },
+    "780": {
+      "js": [
+        {
+          "file": "assets/js/d410d838.4c918206.js",
+          "hash": "b5323db3adf823b2",
+          "publicPath": "/qbittorrent-nox-static/assets/js/d410d838.4c918206.js"
+        }
+      ]
+    },
+    "837": {
+      "js": [
+        {
+          "file": "assets/js/e9ee8e33.a8294339.js",
+          "hash": "bbcdfcab95c8bb0f",
+          "publicPath": "/qbittorrent-nox-static/assets/js/e9ee8e33.a8294339.js"
+        }
+      ]
+    },
+    "873": {
+      "js": [
+        {
+          "file": "assets/js/91261517.ecbe94b1.js",
+          "hash": "aaae805bbfc077bb",
+          "publicPath": "/qbittorrent-nox-static/assets/js/91261517.ecbe94b1.js"
+        }
+      ]
+    },
+    "879": {
+      "js": [
+        {
+          "file": "assets/js/afd67df7.e951c0bc.js",
+          "hash": "8e4f9b0dd328e2c7",
+          "publicPath": "/qbittorrent-nox-static/assets/js/afd67df7.e951c0bc.js"
+        }
+      ]
+    },
+    "903": {
+      "js": [
+        {
+          "file": "assets/js/020b02e8.40a2a954.js",
+          "hash": "d1304ce7993723e8",
+          "publicPath": "/qbittorrent-nox-static/assets/js/020b02e8.40a2a954.js"
+        }
+      ]
+    },
+    "918": {
+      "js": [
+        {
+          "file": "assets/js/17896441.a21c817f.js",
+          "hash": "09c9012e2eb97a12",
+          "publicPath": "/qbittorrent-nox-static/assets/js/17896441.a21c817f.js"
+        }
+      ]
+    },
+    "973": {
+      "js": [
+        {
+          "file": "assets/js/4787da7a.d99c5dd7.js",
+          "hash": "a52c99913136951b",
+          "publicPath": "/qbittorrent-nox-static/assets/js/4787da7a.d99c5dd7.js"
+        }
+      ]
+    }
+  }
+}

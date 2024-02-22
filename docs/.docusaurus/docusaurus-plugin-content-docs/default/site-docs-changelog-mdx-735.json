@@ -1,0 +1,23 @@
+{
+  "id": "changelog",
+  "title": "Changelog",
+  "description": "v2.0.0 - 03-04-2023",
+  "source": "@site/docs/changelog.mdx",
+  "sourceDirName": ".",
+  "slug": "/changelog",
+  "permalink": "/yme/docs/changelog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/userdocs/qbittorrent-nox-static/tree/master/docs/changelog.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Changelog",
+    "hide_title": true
+  },
+  "sidebar": "qtb_sidebar",
+  "previous": {
+    "title": "Credits",
+    "permalink": "/yme/docs/credits"
+  }
+}
