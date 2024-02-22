@@ -28,7 +28,7 @@ jobs:
 
       - name: node lts version check
         run: |
-          printf '%s' "node_ver=$(curl -sL https://nodejs.org/download/release/index.json | jq '[.[]|select(.lts)][0].version')" >> $GITHUB_ENV
+          printf '%s' "node_ver=$(curl -sL https://nodejs.org/download/release/index.json | jq -r '[.[]|select(.lts)][0].version')" >> $GITHUB_ENV
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
