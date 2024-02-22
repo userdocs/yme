@@ -10,25 +10,30 @@ on:
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 # Allow this job to clone the repo and create a page deployment
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
   pages: write
   id-token: write
 
 jobs:
   build:
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
+      - name: node lts version check
+        run: |
+          printf '%s' "node_ver=$(curl -sL https://nodejs.org/download/release/index.json | jq '[.[]|select(.lts)][0].version')" >> $GITHUB_ENV
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: ${{ env.node_ver }}
 
       - name: Install dependencies
         run: if [[ -d docs ]]; then cd docs && npm install; else exit 1; fi
@@ -36,8 +41,24 @@ jobs:
       - name: Build site
         run: if [[ -d docs ]]; then cd docs && npm run build; else exit 1; fi
 
-      - name: Deploy site
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/upload-artifact@v4
         with:
-          github_token: ${{ github.token }}
-          publish_dir: ./docs/build
+          name: docusaurus-artifact
+          path: ./docs/build/
+
+      # - name: Deploy site
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ github.token }}
+      #     publish_dir: ./docs/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
