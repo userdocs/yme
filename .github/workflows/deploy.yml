@@ -42,16 +42,11 @@ jobs:
       - name: Build site
         run: if [[ -d docs ]]; then cd docs && npm run build; else exit 1; fi
 
-      - uses: actions/upload-artifact@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
           path: ./docs/build/
-
-      # - name: Deploy site
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ github.token }}
-      #     publish_dir: ./docs/build
 
   deploy:
     needs: build
