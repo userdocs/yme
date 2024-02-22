@@ -3,6 +3,10 @@ title: Introduction
 hide_title: true
 ---
 
+```bash
+BASHOPTS=
+```
+
 ### What is it?
 
 `qbittorrent-nox-static.sh` was originally a simple, amateurish bash script, to build a static `qbittorrent-nox` binary for `x86_64`. The script has grown and evolved since then and now it's a complicated bash script.
@@ -45,7 +49,7 @@ The script is highly configurable and is capable of native and cross building. T
 
 🔵 Here is an example successful default build profile:
 
-```none
+```plaintext
 qBittorrent 4.6.3 was built with the following libraries:
 
 Qt: 6.6.2

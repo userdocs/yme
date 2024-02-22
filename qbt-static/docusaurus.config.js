@@ -1,8 +1,47 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+import fs from "node:fs/promises";
+import rehypeShiki from "@shikijs/rehype";
+import { bundledLanguages } from "shiki";
+import {
+  transformerMetaHighlight,
+  transformerNotationDiff,
+  transformerNotationHighlight,
+  transformerNotationFocus,
+} from "@shikijs/transformers";
 
-import { themes as prismThemes } from "prism-react-renderer";
-import PrismDark from "./src/prism/themes/custom/aura-custom.ts";
+import yolo from "./src/theme/aura-soft-dark-soft-text-color-theme.json";
+
+const rehypeShikiPlugin = [
+  rehypeShiki,
+  {
+    themes: {
+      dark: yolo,
+      light: "github-light",
+    },
+
+    transformers: [
+      {
+        name: "meta",
+        code(node) {
+          const language = this.options.lang ?? "plaintext";
+          this.addClassToHast(node, `language-${language}`);
+          return node;
+        },
+      },
+      transformerMetaHighlight(),
+      transformerNotationDiff(),
+      transformerNotationHighlight(),
+      transformerNotationFocus(),
+    ],
+
+    // langs: [
+    //   ...Object.keys(bundledLanguages),
+    //   async () =>
+    //     JSON.parse(await fs.readFile("./languages/shellscript.json", "utf-8")),
+    // ],
+  },
+];
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -43,6 +82,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/userdocs/qbittorrent-nox-static/tree/master",
+          beforeDefaultRehypePlugins: [rehypeShikiPlugin],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -69,12 +109,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      codeblock: {
-        showGithubLink: true,
-        githubLinkLabel: "View on GitHub",
-        showRunmeLink: false,
-        runmeLinkLabel: "Checkout via Runme",
-      },
       // Replace with your project's social card
       navbar: {
         title: "Home",
@@ -100,28 +134,7 @@ const config = {
           },
         ],
       },
-      prism: {
-        additionalLanguages: ["bash", "yaml", "json", "nginx", "ini", "docker"],
-        theme: prismThemes.github,
-        darkTheme: PrismDark,
-        magicComments: [
-          // Remember to extend the default highlight class name as well!
-          {
-            className: "theme-code-block-highlighted-line",
-            line: "highlight-next-line",
-            block: { start: "highlight-start", end: "highlight-end" },
-          },
-          {
-            className: "code-block-error-line",
-            line: "This will error",
-          },
-        ],
-      },
-      colorMode: {
-        defaultMode: "dark",
-        disableSwitch: false,
-        respectPrefersColorScheme: false,
-      },
+      beforeDefaultRehypePlugins: [rehypeShikiPlugin],
     }),
 };
 

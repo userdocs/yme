@@ -49,7 +49,7 @@ The `--boot-strap-release` and `--boot-strap-multi-arch` options are specific to
 
 <Advanced>
 
-```none
+```plaintext
  Here are a list of available options
 
 Use: -b or --build-directory Help: -h-b or --help-build-directory

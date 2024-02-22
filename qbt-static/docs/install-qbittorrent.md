@@ -159,7 +159,7 @@ password: adminadmin
 
 Some key start-up arguments to help you along. Using the command above with no arguments will loads the defaults or the settings defined in the `~/.config/qBittorrent/qBittorrent.conf`
 
-```none
+```plaintext
 Usage:
     ./qbittorrent-nox [options] [(<filename> | <url>)...]
 Options:
