@@ -1,43 +1,20 @@
 # Dependencies
-docusaurus/node_modules
+docs/node_modules
 
 # Production
-docusaurus/build
+docs/build
 
 # Generated files
-docusaurus/.docusaurus
-docusaurus/.cache-loader
+docs/.docs
+docs/.cache-loader
 
 # Misc
-docusaurus/.DS_Store
-docusaurus/.env.local
-docusaurus/.env.development.local
-docusaurus/.env.test.local
-docusaurus/.env.production.local
+docs/.DS_Store
+docs/.env.local
+docs/.env.development.local
+docs/.env.test.local
+docs/.env.production.local
 
-docusaurus/npm-debug.log*
-docusaurus/yarn-debug.log*
-docusaurus/yarn-error.log*
-
-# Dependencies
-qbt-static/node_modules
-
-# Production
-qbt-static/build
-
-# Generated files
-qbt-static/.qbt-static
-qbt-static/.cache-loader
-
-# Misc
-qbt-static/.DS_Store
-qbt-static/.env.local
-qbt-static/.env.development.local
-qbt-static/.env.test.local
-qbt-static/.env.production.local
-
-qbt-static/npm-debug.log*
-qbt-static/yarn-debug.log*
-qbt-static/yarn-error.log*
-
-dev/*
+docs/npm-debug.log*
+docs/yarn-debug.log*
+docs/yarn-error.log*
